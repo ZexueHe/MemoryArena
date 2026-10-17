@@ -9,3 +9,4 @@ from .amem import AMemMemorySystem
 from .lightmem import LightMemMemorySystem
 from .reasoningbank import ReasoningBankMemorySystem
 from .zep import ZepMemorySystem
+from .agent_memory_system import AgentMemorySystem

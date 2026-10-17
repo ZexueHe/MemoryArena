@@ -159,12 +159,15 @@ task3: sub1, sub2, sub3, sub4, sub5, sub6, sub7
 | Math   | `math_task_text-embedding.json`| text-embedding-3-small | gpt-5-mini
 | Math   | `math_task_memorag.json`| memorag | gpt-5-mini
 | Math   | `math_task_graphrag.json`| graphrag | gpt-5-mini
+| Math   | `math_agent_memory.json`| agent_memory | gpt-5-mini
 
 Similarly for `phys`:
 |Task| Config | Memory System | Model |
 |--------|--------|--------------|-------|
 | Phys   | `phys_longcontext_gpt-5-mini.json`| long context | gpt-5-mini
 | Phys   | `phys_text-embedding.json`| text-embedding-3-small | gpt-5-mini
+| Phys   | `phys_agent_memory.json`| agent_memory | gpt-5-mini
+| Phys   | `phys_agent_memory_passive.json`| agent_memory_passive | gpt-5-mini
 |... | ...| ...
 
 You can add your configs accordingly. 

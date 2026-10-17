@@ -12,3 +12,5 @@ torch
 langchain-core
 langchain-openai
 langchain-graph-retriever
+# Agent Memory (https://github.com/dorianherle/agent_memory)
+agent-memory @ git+https://github.com/dorianherle/agent_memory.git

@@ -18,6 +18,7 @@ from memory_systems import (
     LightMemMemorySystem,
     ReasoningBankMemorySystem,
     ZepMemorySystem,
+    AgentMemorySystem,
 )
 
 
@@ -59,6 +60,8 @@ MEMORY_FACTORIES: Dict[str, Callable[[], object]] = {
     "lightmem": LightMemMemorySystem,
     "reasoningbank": ReasoningBankMemorySystem, # You must add user_id when initializing ReasoningBankMemorySystem
     "zep": ZepMemorySystem,
+    "agent_memory": lambda: AgentMemorySystem(mode="single_call_full"),
+    "agent_memory_passive": lambda: AgentMemorySystem(mode="passive_state"),
 }
 
 
